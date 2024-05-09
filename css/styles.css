@@ -1,0 +1,27 @@
+.calculadora{
+    width: 30%;
+    background-color: #2D2A37;
+    color: white;
+    font-size: large;
+    border-radius: 30px;
+    padding: 20px;
+}
+.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.boton, .C, .igual{
+    border-radius: 999px;
+    text-align: center;
+    margin: 2px;
+    background: rgb(45,42,55);
+    background: linear-gradient(180deg, rgba(45,42,55,1) 0%, rgba(235,235,235,0.6643032212885154) 97%);
+    padding: 20px 0;
+    font-weight: bolder;
+}
+
+.operacion{
+    text-align: end;
+}
